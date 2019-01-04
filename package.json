@@ -1,0 +1,19 @@
+{
+  "name": "paypalreactnativeserver",
+  "version": "1.0.0",
+  "description": "server for react native app to process PayPal payment",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "WP",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "consolidate": "^0.15.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.9",
+    "paypal-rest-sdk": "^1.8.1"
+  }
+}
